@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="150dp"
+       android:layout_centerHorizontal="true"
+      android:id="@+id/cprofile_img"
+       android:src="@drawable/chef_profile"
+      />
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/cprofile_img"
+       android:layout_marginTop="70dp"
+       android:orientation="vertical"
+       >
+
+      <TextView
+          android:layout_width="433dp"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic__person"
+          android:paddingLeft="20dp"
+          android:id="@+id/profile_account"
+          android:text="Manage Account"
+          android:drawablePadding="20sp"
+          android:textSize="30sp" />
+      <TextView
+          android:layout_width="433dp"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_phone"
+          android:paddingLeft="20dp"
+          android:layout_marginTop="40dp"
+          android:id="@+id/profile_contact"
+          android:text="Contact US"
+          android:drawablePadding="20sp"
+          android:textSize="30sp" />
+
+      <TextView
+          android:layout_width="433dp"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/ic_policy"
+          android:paddingLeft="20dp"
+          android:layout_marginTop="40dp"
+          android:id="@+id/profile_privacy_policy"
+          android:text="Privacy Policy"
+          android:drawablePadding="20sp"
+          android:textSize="30sp" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:gravity="center"
+       android:layout_alignParentBottom="true"
+       >
+
+   <android.widget.Button
+       android:id="@+id/userSignOut"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=" Sign Out "
+       android:textAllCaps="false"
+       android:background="#D50000"
+       android:textColor="@color/white"
+       android:textAlignment="center" />
+
+   </LinearLayout>
+</RelativeLayout>

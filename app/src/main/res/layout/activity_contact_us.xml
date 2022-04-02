@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs"
+    android:background="#00684e">
+
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cu_rl1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="14dp"
+        android:text="Contact Us"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:id="@+id/cu_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-274dp"
+        android:layout_weight="3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/data_background"
+        android:elevation="36dp">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="71dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="296dp"
+            android:layout_marginBottom="582dp"
+            android:src="@drawable/addressicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="208dp"
+            android:layout_marginBottom="633dp"
+            android:text="Address"
+            android:textColor="#00684e"
+            android:textSize="23dp" />
+
+
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="565dp"
+            android:text="GLS University,Faculty of Computer Applications and Information Technology,GLS University Campus,Ellisbridge,Ahmedabad-380006"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="297dp"
+            android:layout_marginBottom="498dp"
+            android:src="@drawable/phoneicon" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="229dp"
+            android:layout_marginBottom="532dp"
+            android:text="Phone"
+            android:textColor="#00684e"
+            android:textSize="23dp" />
+
+        <TextView
+
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="509dp"
+            android:text="079-23536785,079-12547809"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="297dp"
+            android:layout_marginBottom="431dp"
+            android:src="@drawable/mailicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="237dp"
+            android:layout_marginBottom="471dp"
+            android:text="Email"
+            android:textColor="#00684e"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="182dp"
+            android:layout_marginBottom="448dp"
+            android:text="glsim@glsica.org"
+            android:textColor="#000"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

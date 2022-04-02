@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_View_Tiffin_Order_Details"
+    android:background="#F5FFFA"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:id="@+id/UVPOD_TITLE"
+        android:textStyle="bold"
+        android:text="TIFFIN ORDER DETAILS"
+        android:gravity="center"
+        android:textColor="#00684E"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/UVTOD_TIFFIN_Price"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:text="TIFFIN Price"
+        android:gravity="left"
+        android:textColor="#00684E"
+        />
+
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/UVTOD_TIFFIN_QUANTITY"
+        android:layout_marginLeft="20dp"
+        android:text="Tiffin Quantity"
+        android:gravity="left"
+        android:textColor="#00684E"
+        />
+
+
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/UVTOD_BOOK_DATE"
+        android:layout_marginLeft="20dp"
+        android:text="Date"
+        android:gravity="left"
+        android:textColor="#00684E"
+        />
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/UVTOD_BOOK_TIME"
+        android:layout_marginLeft="20dp"
+        android:text="TIme"
+        android:gravity="left"
+        android:textColor="#00684E"
+        />
+
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue with Payment"
+        android:background="@drawable/btn_login_1"
+        android:padding="25dp"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:id="@+id/UVTOD_Payment_btn"
+        />
+
+
+
+</LinearLayout>

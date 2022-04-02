@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Tiffin_Order_Details"
+    android:background="#00684e"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Tiffin Booking"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textSize="36dp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:layout_weight="3"
+        android:background="@drawable/data_background"
+        android:elevation="36dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+<!--            <TextView-->
+<!--                android:id="@+id/tiffin_tv_book"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Booking"-->
+<!--                android:textColor="#00684e"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/tiffin_et_book"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Booking Id"-->
+<!--                android:minHeight="48dp"-->
+<!--                android:outlineSpotShadowColor="#00684e"-->
+<!--                android:textColor="#00684e"-->
+<!--                android:textColorHint="#00684e" />-->
+
+
+            <TextView
+                android:id="@+id/tiffin_tv_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Quantity"
+                android:textColor="#00684e"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tiffin_et_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tiffin Quantity"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="#00684e"
+                android:textColor="#00684e"
+                android:textColorHint="#00684e" />
+
+            <TextView
+                android:id="@+id/tiffin_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Time"
+                android:textColor="#00684e"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/tiffin_et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tiffin Time"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="#00684e"
+                android:textColor="#00684e"
+                android:textColorHint="#00684e" />
+
+            <TextView
+                android:id="@+id/tiffin_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textColor="#00684e"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tiffin_et_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tiffin Date"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="#00684e"
+                android:textColor="#00684e"
+                android:textColorHint="#00684e" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tiffin_tv_amt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Amount"-->
+<!--                android:textColor="#00684e"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/tiffin_et_amt"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Tiffin Amount"-->
+<!--                android:minHeight="48dp"-->
+<!--              android:focusableInTouchMode="false"-->
+<!--                android:outlineSpotShadowColor="#00684e"-->
+<!--                android:textColor="#00684e"-->
+<!--                android:textColorHint="#00684e" />-->
+
+            <android.widget.Button
+                android:id="@+id/continue_button"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/button_background"
+                android:padding="15dp"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
