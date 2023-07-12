@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Venu_Order_Details"
+    android:background="#00684e">
+
+    <TextView
+        android:id="@+id/be_tv_venue"
+        android:layout_width="325dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-41dp"
+        android:layout_marginBottom="38dp"
+        android:text="Add Venue"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
+        android:layout_weight="3"
+        android:background="@drawable/be_data_background"
+        android:elevation="36dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-5dp"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+
+            <TextView
+                android:id="@+id/be_venue_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Venue Name"
+                android:textColor="#00684e"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/be_venue_et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue Name"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="#00684e"
+                android:textColor="#00684e"
+                android:textColorHint="#00684e" />
+
+            <TextView
+                android:id="@+id/be_venue_tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Venue Address"
+                android:textColor="#00684e"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/be_venue_et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue Address"
+                android:minHeight="48dp"
+                android:outlineSpotShadowColor="#00684e"
+                android:textColor="#00684e"
+                android:textColorHint="#00684e" />
+
+
+            <android.widget.Button
+                android:id="@+id/be_bookbtn"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/be_button_background"
+                android:padding="15dp"
+                android:text="Book Now"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+

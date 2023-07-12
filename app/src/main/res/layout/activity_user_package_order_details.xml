@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Package_Order_Details"
+    android:background="#00684e">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="424dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/be_title"
+                android:layout_width="319dp"
+                android:layout_height="81dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:text="Book Event"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="36dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="778dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="103dp"
+            android:layout_marginBottom="44dp"
+            android:layout_weight="3"
+            android:background="@drawable/be_data_background"
+            android:elevation="36dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="60dp"
+                android:orientation="vertical"
+                android:padding="40dp">
+>
+
+
+                <TextView
+                    android:id="@+id/be_tv_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Expected Attendee"
+                    android:textColor="#00684e"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/be_et_event_attendee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Total Attandee's"
+                    android:minHeight="48dp"
+                    android:outlineSpotShadowColor="#00684e"
+                    android:textColor="#00684e"
+                    android:textColorHint="#00684e" />
+
+                <TextView
+                    android:id="@+id/be_tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Time"
+                    android:textColor="#00684e"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/be_et_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Time"
+                    android:minHeight="48dp"
+                    android:outlineSpotShadowColor="#00684e"
+                    android:textColor="#00684e"
+                    android:textColorHint="#00684e" />
+
+                <TextView
+                    android:id="@+id/be_tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Date"
+                    android:textColor="#00684e"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/be_et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Date"
+                    android:minHeight="48dp"
+                    android:outlineSpotShadowColor="#00684e"
+                    android:textColor="#00684e"
+                    android:textColorHint="#00684e" />
+
+                <android.widget.Button
+                    android:id="@+id/be_continue_btn"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/be_button_background"
+                    android:padding="15dp"
+                    android:text="Continue"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Payment_Option">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:background="#00684E"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
+<!--    <android.widget.Button-->
+<!--        android:id="@+id/pay_op_paypal"-->
+<!--        android:layout_width="216dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/custom2"-->
+<!--        android:text="  Continue with Paypal  "-->
+<!--        android:textColor="#ffff"-->
+<!--        android:textSize="20sp" />-->
+
+
+    <android.widget.Button
+        android:id="@+id/pay_op_cod"
+        android:layout_width="216dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/custom2"
+        android:text="Pay NOw"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/payment_icon"
+        />
+</LinearLayout>

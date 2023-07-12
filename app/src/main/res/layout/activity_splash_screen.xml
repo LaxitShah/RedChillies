@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00684E"
+    android:rotation="0"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="29dp"
+        app:srcCompat="@drawable/logo1"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/welcomes"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/logo1"
+
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="-178dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed-light"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:shadowColor="#FBFFFB"
+        android:layout_centerHorizontal="true"
+        android:text=" Your Food Drama Begins"
+        android:textColor="#FBFFFB"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="122dp"
+        android:layout_height="328dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-19dp"
+        app:srcCompat="@drawable/combo1"
+        tools:ignore="ImageContrastCheck"
+        />
+
+
+</RelativeLayout>

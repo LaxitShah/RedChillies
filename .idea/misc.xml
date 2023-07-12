@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/btn_login_1.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/custom1.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/custom2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/edt_txt.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/ic_lock.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/ic_search.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/reg_bg.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable-v24/reg_page_btn.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/be_button_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/be_data_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/bg3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/bg_spinner.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/btn_login_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/btn_login_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/button_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/custom3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/custom4.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/data_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/reg_bg1.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/drawable/roundedborder.xml" value="0.2703125" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_add_package.xml" value="0.264" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_add_tiffin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_home.xml" value="0.152" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_profile_update_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_update_delete_package.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_update_delete_tiffin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_view_package.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_caterer_view_tiffin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_contact_us.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_home_page_caterer_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_homepage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_payment_option.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_rating.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_package_order_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_profile_update_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_tiffin_order_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_venu_order_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_event.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_package.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_package_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_tiffin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_tiffin_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_user_view_tiffin_order_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/activity_welcome_button.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_caterer_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_caterer_manage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_caterer_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/fragment_signout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/raw_caterer_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/raw_event_grid.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/raw_list2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/layout/raw_tiffins_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/menu/home_bottom_navigation.xml" value="0.8" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/menu/menu2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AndroidStudioProjects/TempApplication/app/src/main/res/menu/my_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Laxit/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
