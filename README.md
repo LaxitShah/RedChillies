@@ -1,8 +1,8 @@
-# Red Chiillies - Android Application
-Red Chiillies is an Android application that offers event catering and tiffin services. It allows users to order tiffin meals and book catering services for their events. The app provides real-time support and employs data storage and retrieval functionality for a seamless user experience. The tech stack used for this application includes Java for the front-end and Firebase for the back-end.
+# Red Chillies - Android Application
+Red Chillies is an Android application that offers event catering and tiffin services. It allows users to order tiffin meals and book catering services for their events. The app provides real-time support and employs data storage and retrieval functionality for a seamless user experience. The tech stack used for this application includes Java for the front-end and Firebase for the back-end.
 
 # Project Info
-In our busy day-to-day life, many individuals struggle to find time to cook, especially working professionals, bachelors, and couples in tier 2 and tier 3 cities. Red Chiillies addresses this issue by connecting users with local caterers who offer tiffin services and event catering. The app ensures that users can enjoy healthy, freshly prepared meals and also facilitates event organizing by providing caterers' packages for different events.
+In our busy day-to-day life, many individuals struggle to find time to cook, especially working professionals, bachelors, and couples in tier 2 and tier 3 cities. Red Chillies addresses this issue by connecting users with local caterers who offer tiffin services and event catering. The app ensures that users can enjoy healthy, freshly prepared meals and also facilitates event organizing by providing caterers' packages for different events.
 
 # User Functionalities
 User Registration and Login: Users can create accounts and log in to the app to access its features.
