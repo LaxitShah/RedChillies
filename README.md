@@ -6,28 +6,47 @@ In our busy day-to-day life, many individuals struggle to find time to cook, esp
 
 # User Functionalities
 User Registration and Login: Users can create accounts and log in to the app to access its features.
+
 View available Caterers and their details: Users can browse and explore different caterers listed in the app along with their details.
+
 View Events and their Packages: Users can view available events and the catering packages offered by caterers.
+
 Event Booking: Users can book catering services for their events through the app.
+
 View Tiffin and their Menu: Users can see the menu of different tiffin services offered by caterers.
+
 User Profile: Users have their profiles where they can manage their information.
+
 Book Tiffin: Users can order tiffin services from nearby caterers.
+
 Rating: Users can rate and provide feedback on the services they receive.
 
 # Caterer Functionalities
+
 Caterer Registration and Login: Caterers can create accounts and log in to the app to list their services.
+
 Add Tiffin and Event Packages: Caterers can add their tiffin menus and event packages to the app.
+
 View added Tiffin and Packages: Caterers can see the tiffin and event packages they have listed.
+
 Caterer Profile: Caterers have their profiles where they can manage their information.
 
 # Admin Functionalities
+
 Cloud Storage of App Data: The app data is stored in the cloud for easy access and management.
+
 Manage Users: The admin can manage user accounts and information.
+
 Manage Caterers: The admin can manage caterer accounts and details.
+
 Manage Events: The admin can manage the events and catering packages offered.
+
 Manage Tiffin: The admin can manage the tiffin services offered by caterers.
 
 # Development Tools & Technology Used
+
 Technology: Android Studio (Android Integrated Development Environment)
+
 Front End: Android (Java)
+
 Back End: Firebase (Realtime Database)
